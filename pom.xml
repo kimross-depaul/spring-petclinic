@@ -240,7 +240,7 @@
           </generateGitPropertiesFilename>
           <failOnNoGitDirectory>false</failOnNoGitDirectory>
         </configuration>
-      </plugin> //-->
+      </plugin> -->
 
       <plugin>
         <groupId>ro.isdc.wro4j</groupId>
@@ -282,7 +282,7 @@
                   <execution>
                         <id>copy-dependencies</id>
                         <phase>package</phase>
-                        <goals><goal>copy-dependencies</goal</goals>
+                        <goals><goal>copy-dependencies</goal></goals>
                   </execution>
             </executions>
       </plugin>
