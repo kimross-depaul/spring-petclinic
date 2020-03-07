@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # update all existing packages
+yum clean all
 sudo yum -y update
 
 # download and install java
